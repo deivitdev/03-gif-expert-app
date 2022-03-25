@@ -3,9 +3,7 @@ import AddCategory from './AddCategory';
 import GifGrid from './GifGrid';
 
 const GifExpertApp = () => {
-  const [categories, setCategories] = useState([
-    '',
-  ]);
+  const [categories, setCategories] = useState(['']);
 
   return (
     <>
